@@ -11,7 +11,7 @@ services:
       - db
     environment:
       - "DJANGO_SECRET_KEY=*wr=@l-h94ln-z(o4tq#!p5f6sk2r2vhqhqu&5xic^@)cunxcn"
-      - "DJANGO_DEBUG=True"
+      - "DJANGO_DEBUG=False"
   db:
     image: postgres:11
     volumes:
